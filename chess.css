@@ -1,0 +1,23 @@
+table{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    border-spacing: 0px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(181, 114, 114);
+}
+th,td{
+   height: 15px;
+   width: 15px;
+   /* border: 1px solid black; */
+   padding: 50px 5px;
+   border-spacing: 0px;
+}
+.odd{
+    background-color: black;
+}
+.even{
+    background-color: rgb(133, 47, 47);
+}

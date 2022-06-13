@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* table{
+    margin: auto;
+} */
+body{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpapercave.com/wp/wp3416319.jpg)
+}            
+table{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+    background-color: rgb(67, 67, 67);
+}    
+a{
+    color: black;
+    text-decoration-line: none;
+    font-weight: 400;
+}
+a:active{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+th{
+    width: 33%;
+}
+input[type=email], input[type=password]{
+    width: 40%;
+    padding: 12px 5px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.frm{
+    margin-left: 37%;
+    margin-bottom: 27%;
+    margin-top: auto
+}  
+input[type=button]{
+    margin-top: 30px;
+    margin-left: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}    
+footer{
+    height: 40px;
+    background: #FFFF;
+    margin-top: 20px;
+}  
+input:invalid {
+    border: red solid 3px;
+}

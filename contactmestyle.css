@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    background-color: #EBF5F5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpapercave.com/wp/wp3416319.jpg)
+}            
+table{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(67, 67, 67);
+}
+a{
+    color: black;
+    text-decoration-line: none;
+    font-weight: 400;
+}
+a:active{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    margin-left: 530px
+}
+input[name=Name] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+input[type=button]{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+input[name=Message] {
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+input[type=button]:hover{
+    background-color: rgb(67, 67, 67);
+    border: none;
+}
+footer{
+    height: 40px;
+    background: #EBF5F5;
+}
+input:invalid {
+    border: red solid 3px;
+}

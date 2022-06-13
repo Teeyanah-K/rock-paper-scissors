@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<link rel="stylesheet" href="Registrationstyle.css">
+<body>
+    <header> 
+        <table width="100%">
+        <tr>
+            <th><a href="AboutMe.html">About Me</a></th>
+            <th><a href="ContactMe.html">Contact Me</a></th>
+            <th><a href="Login.html">Login</a></th>
+        </tr>
+        </table>
+    </header>
+    <br>
+    <main>
+        <div class="frm">
+            <form action="submit">
+                <div>
+                    <label for="First Name">First Name</label>
+                    <br>
+                    <input type="text" name="First Name" id="First Name" required="required" placeholder="*this field is required">
+                </div>
+                <div>
+                    <label for="Last Name">Last Name</label>
+                    <br>
+                    <input type="text" name="Last Name" id="Last Name">
+                </div>
+                <div>
+                    <label for="Phone">Phone</label>
+                    <br>
+                    <input type="tel" name="Phone" id="Phone" pattern="[0-9]{11}" placeholder="for example: 08034000078" aria-label="11-digit area code">
+                </div>
+                <div>
+                    <label for="Gender">Gender</label>
+                    <br>
+                    <select name="Gender" id="Gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Prefer Not To Say">Prefer Not To Say</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Country">Country</label>
+                    <br>
+                    <input type="text" name="Country" id="Country">
+                </div>
+                <div>
+                    <label for="State/Province">State/Province</label>
+                    <br>
+                    <input type="text" name="State/Province" id="State/Province">
+                </div>
+                <div>
+                    <label for="Email">Email</label>
+                    <br>
+                    <input type="email" name="Email" id="Email" required="required" placeholder="*this field is required">
+                </div>
+                <div>
+                    <label for="Password">Password</label>
+                    <br>
+                    <input type="password" name="Password" id="Password">
+                </div>
+                <div>
+                    <label for="Confirm Password">Confirm Password</label>
+                    <br>
+                    <input type="password" name="Confirm Password" id="Confirm Password" placeholder="*please confirm your password">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+<br>
+<br>
+<footer>
+    <hr>
+</footer>
+</html>
